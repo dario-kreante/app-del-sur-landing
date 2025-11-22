@@ -10,29 +10,45 @@ interface ProcessProps {
 
 export function Process({ title, steps }: ProcessProps) {
   return (
-    <section id="proceso" className="py-16 md:py-24 bg-white">
+    <section id="proceso" className="py-20 md:py-28 bg-gradient-to-b from-white to-gray-50">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-          {title}
-        </h2>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+            {title}
+          </h2>
+          <p className="text-lg text-gray-600">
+            Proceso transparente con hitos claros
+          </p>
+        </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="space-y-8">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {steps.map((step, idx) => (
-              <div key={idx} className="flex gap-6">
-                {/* Step number */}
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-brand-primary text-white font-bold text-lg">
-                    {idx + 1}
-                  </div>
-                </div>
+              <div
+                key={idx}
+                className="relative group"
+              >
+                {/* Connector line for desktop */}
+                {idx < steps.length - 1 && (
+                  <div className="hidden md:block absolute top-16 left-full w-8 h-0.5 bg-gradient-to-r from-brand-primary to-transparent -z-10" />
+                )}
 
-                {/* Step content */}
-                <div className="flex-1 pt-1">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    {step.title}
-                  </h3>
-                  <p className="text-gray-600">{step.desc}</p>
+                <div className="relative bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-brand-primary/30 h-full">
+                  {/* Step number badge */}
+                  <div className="absolute -top-4 -left-4 w-12 h-12 rounded-xl bg-gradient-to-br from-brand-primary to-brand-secondary shadow-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">{idx + 1}</span>
+                  </div>
+
+                  {/* Content */}
+                  <div className="mt-4">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-brand-primary transition-colors">
+                      {step.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">{step.desc}</p>
+                  </div>
+
+                  {/* Decorative element */}
+                  <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-accent/5 to-transparent rounded-tl-full opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
               </div>
             ))}

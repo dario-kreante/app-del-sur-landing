@@ -1,3 +1,5 @@
+import { AlertCircle } from 'lucide-react';
+
 interface PainPointsProps {
   title: string;
   text: string;
@@ -6,33 +8,37 @@ interface PainPointsProps {
 
 export function PainPoints({ title, text, items }: PainPointsProps) {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-20 md:py-28 bg-gradient-to-b from-gray-50 to-white">
       <div className="container-custom">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
-            {title}
-          </h2>
-          <p className="text-lg text-gray-600 mb-12 text-center">{text}</p>
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+              {title}
+            </h2>
+            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              {text}
+            </p>
+          </div>
 
-          <ul className="space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {items.map((item, idx) => (
-              <li key={idx} className="flex items-start gap-3">
-                <svg
-                  className="h-6 w-6 text-red-500 flex-shrink-0 mt-0.5"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                </svg>
-                <span className="text-gray-700 text-lg">{item}</span>
-              </li>
+              <div
+                key={idx}
+                className="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-red-200"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
+                      <AlertCircle className="h-6 w-6 text-white" />
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-lg leading-relaxed flex-1 pt-2">
+                    {item}
+                  </p>
+                </div>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </section>
