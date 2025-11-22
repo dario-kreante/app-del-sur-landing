@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Software a medida en Maule costa (Constitución, Pelluhue) | Apps del Sur",
+    "description": "Desarrollo de aplicaciones web y móviles para pymes de la costa del Maule: Constitución, Pelluhue, Chanco, Curanipe, Iloca y Duao. Discovery serio y entregas en semanas.",
+    "canonical": "https://apps-del-sur.cl/maule-costa"
+  },
+  "hero": {
+    "h1": "Desarrollo de software a medida en la costa del Maule",
+    "sub": "Atendemos Constitución, Pelluhue, Chanco, Curanipe, Iloca y Duao. Digitalizamos procesos de turismo, comercio, servicios y operación en terreno, con foco en resultados rápidos.",
+    "ctaPrimary": "Agenda un diagnóstico",
+    "ctaSecondary": "WhatsApp",
+    "whatsAppText": "Hola Apps del Sur, necesito mejorar un proceso en Maule costa (Constitución/Pelluhue/Chanco)."
+  },
+  "local": {
+    "painTitle": "Operación en temporada y todo el año",
+    "pain": [
+      "Reservas/ocupación y pagos para turismo/hospitalidad",
+      "Inventario y ventas omnicanal en comercio local",
+      "Tareas en terreno (PWA: cámara/QR, offline-first)",
+      "Reportes simples para decidir (temporada vs baja)"
+    ],
+    "localities": [
+      "Constitución",
+      "Pelluhue",
+      "Chanco",
+      "Curanipe",
+      "Iloca",
+      "Duao",
+      "Putú",
+      "Empedrado"
+    ]
+  },
+  "offer": {
+    "title": "Discovery Sprint: prioricemos lo que mueve la aguja",
+    "text": "Prototipo navegable y estimación realista en 1–2 semanas para iniciar sin sorpresas."
+  },
+  "services": {
+    "title": "Qué hacemos",
+    "cards": [
+      {
+        "title": "Consultoría & Discovery",
+        "desc": "Mapeo de procesos, backlog, prototipos navegables y estimación por riesgos."
+      },
+      {
+        "title": "Aplicaciones Web",
+        "desc": "Portales internos/externos, roles, auditoría y reportes accionables."
+      },
+      {
+        "title": "Apps Móviles (PWA)",
+        "desc": "Operación en terreno con cámara/QR y modo offline."
+      },
+      {
+        "title": "Integraciones",
+        "desc": "Pagos, mensajería, ERPs, planillas legadas y APIs."
+      }
+    ]
+  },
+  "process": {
+    "title": "Cómo trabajamos",
+    "steps": [
+      {
+        "title": "Descubrimiento (1–2 semanas)",
+        "desc": "Entrevistas, AS-IS/TO-BE, prototipo y estimación P50–P90."
+      },
+      {
+        "title": "Alcance y SOW",
+        "desc": "Entregables, supuestos, riesgos y calendario acordados."
+      },
+      {
+        "title": "Desarrollo por hitos",
+        "desc": "Entrega funcional semanal, revisión y ajustes."
+      },
+      {
+        "title": "Go-live & Handover",
+        "desc": "Despliegue, capacitación, documentación y soporte opcional."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuánto tarda un proyecto típico?",
+        "a": "La mayoría entre 4 y 8 semanas, según alcance e integraciones."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Partimos con un Discovery fijo. Luego cotizamos el proyecto con alcance cerrado y contingencia (10–15%)."
+      },
+      {
+        "q": "¿Atienden toda la costa del Maule?",
+        "a": "Sí. Trabajamos en Constitución, Pelluhue, Chanco, Curanipe, Iloca, Duao y localidades vecinas, con sesiones remotas y visitas en terreno cuando se requiere."
+      },
+      {
+        "q": "¿Dónde se alojan los datos?",
+        "a": "Preferimos infraestructura con residencia en Chile cuando el proyecto lo requiere."
+      },
+      {
+        "q": "¿El código es mío?",
+        "a": "Sí. La propiedad del código y la documentación queda para el cliente."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Conversemos de tu proceso en Maule costa",
+    "text": "Agenda 30 minutos y evalúa si vale la pena un Discovery. Sin compromiso."
+  }
+}

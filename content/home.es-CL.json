@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Apps del Sur | Desarrollo de software a medida en Talca y centro-sur",
+    "description": "Consultoría y desarrollo de aplicaciones web y móviles a medida. Trabajamos desde Talca para pymes del Maule, Ñuble, Biobío, Araucanía y O'Higgins. Discovery rápido, entregas por hitos y soporte opcional.",
+    "canonical": "https://apps-del-sur.cl/"
+  },
+  "hero": {
+    "h1": "Desarrollo de software a medida, hecho en el centro-sur",
+    "sub": "Boutique de desarrollo desde Talca. Resolvemos procesos críticos con aplicaciones a medida y entregas en semanas. Discovery serio, alcance claro y acompañamiento en terreno.",
+    "ctaPrimary": "Agenda un diagnóstico",
+    "ctaSecondary": "Conversemos por WhatsApp",
+    "trust": [
+      "Discovery Sprint 1–2 semanas",
+      "Alcance cerrado y hitos de entrega",
+      "Hosting y datos en Chile cuando aplica"
+    ]
+  },
+  "painPoints": {
+    "title": "Tu proceso primero, el software después",
+    "text": "Antes de escribir código estudiamos tu proceso. Iniciamos con un Discovery Sprint que identifica cuellos de botella, riesgos y el alcance mínimo que entrega valor rápido.",
+    "items": [
+      "Pedidos, inventario y despacho con errores",
+      "Planillas que ya no dan abasto",
+      "Integraciones pendientes (pagos, ERP, WhatsApp)",
+      "Trazabilidad y reportes que el equipo sí usa"
+    ]
+  },
+  "services": {
+    "title": "Qué hacemos",
+    "cards": [
+      {
+        "title": "Consultoría & Discovery",
+        "desc": "Mapeo de procesos, backlog, prototipos navegables y estimación por riesgos."
+      },
+      {
+        "title": "Aplicaciones Web",
+        "desc": "Portales internos/externos, roles, auditoría y reportes accionables."
+      },
+      {
+        "title": "Apps Móviles (PWA)",
+        "desc": "Operación en terreno con cámara/QR y modo offline."
+      },
+      {
+        "title": "Integraciones",
+        "desc": "Pagos, mensajería, ERPs, planillas legadas y APIs."
+      },
+      {
+        "title": "Soporte & Evolutivos",
+        "desc": "Retainer opcional con SLA y bolsa de horas."
+      }
+    ],
+    "proofNote": "Cómo garantizamos el resultado: SOW claro, criterios de aceptación, demo semanal, propiedad de código/documentación para el cliente."
+  },
+  "process": {
+    "title": "Cómo trabajamos",
+    "steps": [
+      {
+        "title": "Descubrimiento (1–2 semanas)",
+        "desc": "Entrevistas, AS-IS/TO-BE, prototipo y estimación P50–P90."
+      },
+      {
+        "title": "Alcance y SOW",
+        "desc": "Entregables, supuestos, riesgos y calendario acordados."
+      },
+      {
+        "title": "Desarrollo por hitos",
+        "desc": "Entrega funcional semanal, revisión y ajustes."
+      },
+      {
+        "title": "Go-live & Handover",
+        "desc": "Despliegue, capacitación, documentación y soporte opcional."
+      }
+    ]
+  },
+  "regions": {
+    "title": "Trabajamos cerca de tu operación",
+    "text": "Atendemos pymes del centro-sur: Maule, Ñuble, Biobío, Araucanía y O'Higgins. Vamos a terreno cuando se requiere validar procesos con tu equipo.",
+    "links": [
+      { "label": "Talca", "href": "/" },
+      { "label": "Curicó / Linares", "href": "/" },
+      { "label": "Maule costa", "href": "/maule-costa" },
+      { "label": "Chillán", "href": "/" },
+      { "label": "Concepción / Los Ángeles", "href": "/" },
+      { "label": "Temuco / Villarrica", "href": "/" },
+      { "label": "Rancagua / San Fernando", "href": "/ohiggins" }
+    ]
+  },
+  "offer": {
+    "title": "Discovery Sprint: decisiones con datos",
+    "text": "En 1–2 semanas entregamos mapeo de procesos, supuestos y riesgos, backlog priorizado, prototipo navegable y una estimación con escenarios.",
+    "cta": "Quiero agendar mi Discovery"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuánto tarda un proyecto típico?",
+        "a": "La mayoría entre 4 y 8 semanas, según alcance e integraciones."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Partimos con un Discovery fijo. Luego cotizamos el proyecto con alcance cerrado y contingencia (10–15%)."
+      },
+      {
+        "q": "¿Trabajan sólo en Talca?",
+        "a": "No. Atendemos Maule, Ñuble, Biobío, Araucanía y O'Higgins, con sesiones remotas y visitas en terreno."
+      },
+      {
+        "q": "¿Dónde se alojan los datos?",
+        "a": "Preferimos infraestructura con residencia en Chile cuando el proyecto lo requiere."
+      },
+      {
+        "q": "¿El código es mío?",
+        "a": "Sí. La propiedad del código y la documentación queda para el cliente."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Conversemos de tu proceso",
+    "text": "Agenda 30 minutos y evalúa si vale la pena un Discovery. Sin compromiso.",
+    "whatsAppText": "Hola Apps del Sur, quiero un diagnóstico para mi pyme en el centro-sur."
+  },
+  "footer": {
+    "nap": {
+      "name": "Apps del Sur",
+      "phone": "+56-XX-XXXXXXX",
+      "email": "contacto@apps-del-sur.cl",
+      "hours": "Lun–Vie 09:00–18:00"
+    },
+    "areas": [
+      "Talca",
+      "Curicó",
+      "Linares",
+      "Chillán",
+      "Concepción",
+      "Los Ángeles",
+      "Temuco",
+      "Villarrica",
+      "Rancagua",
+      "San Fernando",
+      "Maule costa"
+    ]
+  }
+}

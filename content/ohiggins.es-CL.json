@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Desarrollo de software a medida en O'Higgins | Apps del Sur",
+    "description": "Consultoría y desarrollo a medida para pymes de O'Higgins: Rancagua, Machalí, San Fernando, Rengo y Pichilemu. Discovery serio, alcance claro y entregas en semanas.",
+    "canonical": "https://apps-del-sur.cl/ohiggins"
+  },
+  "hero": {
+    "h1": "Desarrollo de software a medida en O'Higgins",
+    "sub": "Proyectos 100% a medida para pymes de Rancagua, Machalí, San Fernando, Rengo y costa (Pichilemu). Estudiamos tu proceso, estimamos con rigor y entregamos en semanas.",
+    "ctaPrimary": "Agenda un diagnóstico",
+    "ctaSecondary": "WhatsApp",
+    "whatsAppText": "Hola Apps del Sur, quiero un diagnóstico para mi pyme en O'Higgins."
+  },
+  "local": {
+    "painTitle": "Tu operación manda: nosotros la digitalizamos",
+    "pain": [
+      "Ventas B2B/B2C con planillas e inventario desactualizado",
+      "Trazabilidad simple para producción y despacho",
+      "Integraciones clave (pagos, ERP, mensajería)",
+      "Reportes accionables (no solo tablas)"
+    ],
+    "communes": [
+      "Rancagua",
+      "Machalí",
+      "Requínoa",
+      "Rengo",
+      "San Vicente",
+      "San Fernando",
+      "Chimbarongo",
+      "Nancagua",
+      "Pichilemu",
+      "Santa Cruz"
+    ]
+  },
+  "offer": {
+    "title": "Discovery Sprint para decidir con datos",
+    "text": "Mapa de procesos, supuestos y riesgos, backlog priorizado, prototipo y estimación con escenarios."
+  },
+  "services": {
+    "title": "Qué hacemos",
+    "cards": [
+      {
+        "title": "Consultoría & Discovery",
+        "desc": "Mapeo de procesos, backlog, prototipos navegables y estimación por riesgos."
+      },
+      {
+        "title": "Aplicaciones Web",
+        "desc": "Portales internos/externos, roles, auditoría y reportes accionables."
+      },
+      {
+        "title": "Apps Móviles (PWA)",
+        "desc": "Operación en terreno con cámara/QR y modo offline."
+      },
+      {
+        "title": "Integraciones",
+        "desc": "Pagos, mensajería, ERPs, planillas legadas y APIs."
+      }
+    ]
+  },
+  "process": {
+    "title": "Cómo trabajamos",
+    "steps": [
+      {
+        "title": "Descubrimiento (1–2 semanas)",
+        "desc": "Entrevistas, AS-IS/TO-BE, prototipo y estimación P50–P90."
+      },
+      {
+        "title": "Alcance y SOW",
+        "desc": "Entregables, supuestos, riesgos y calendario acordados."
+      },
+      {
+        "title": "Desarrollo por hitos",
+        "desc": "Entrega funcional semanal, revisión y ajustes."
+      },
+      {
+        "title": "Go-live & Handover",
+        "desc": "Despliegue, capacitación, documentación y soporte opcional."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuánto tarda un proyecto típico?",
+        "a": "La mayoría entre 4 y 8 semanas, según alcance e integraciones."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Partimos con un Discovery fijo. Luego cotizamos el proyecto con alcance cerrado y contingencia (10–15%)."
+      },
+      {
+        "q": "¿Atienden toda la región de O'Higgins?",
+        "a": "Sí. Trabajamos en Rancagua, Machalí, San Fernando, Rengo, Pichilemu y todas las comunas de la región, con sesiones remotas y visitas en terreno cuando se requiere."
+      },
+      {
+        "q": "¿Dónde se alojan los datos?",
+        "a": "Preferimos infraestructura con residencia en Chile cuando el proyecto lo requiere."
+      },
+      {
+        "q": "¿El código es mío?",
+        "a": "Sí. La propiedad del código y la documentación queda para el cliente."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Conversemos de tu proceso en O'Higgins",
+    "text": "Agenda 30 minutos y evalúa si vale la pena un Discovery. Sin compromiso."
+  }
+}
